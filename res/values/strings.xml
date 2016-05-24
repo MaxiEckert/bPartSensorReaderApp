@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">bPart Sensor Reader</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_display_measurement">bPart Messwerte</string>
+    <string name="update_time_button">Uhrzeit auf bPart aktualisieren</string>
+    <string name="current_time_bPart">Aktuelle Uhrzeit auf dem bPart:</string>
+    <string name="read_measurements">Messwerte auslesen</string>
+    <string name="measurement_count">Anzahl Messwerte: 0</string>
+    <string name="start_scan">Scan nach bParts starten</string>
+    <string name="temperature_icon">Temperatur Icon</string>
+    <string name="humidity_icon">Luftfeuchtigkeit Icon</string>
+
+</resources>

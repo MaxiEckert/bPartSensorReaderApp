@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="100dp"
+    android:padding="6dip" >
+
+    <ImageView
+        android:contentDescription="@string/temperature_icon"
+        android:id="@+id/temperature_icon"
+        android:layout_width="100dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dip"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/temperature"
+        android:layout_width="200dp"
+        android:layout_height="26dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignTop="@+id/temperature_icon"
+        android:layout_toRightOf="@id/temperature_icon"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:gravity="center_vertical"
+        android:textSize="20sp" />
+    
+    <ImageView
+        android:contentDescription="@string/humidity_icon"
+        android:id="@+id/humidity_icon"
+        android:layout_width="100dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/temperature"
+        android:layout_marginRight="10dip"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/humidity"
+        android:layout_width="200dp"
+        android:layout_height="26dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignTop="@+id/humidity_icon"
+        android:layout_toRightOf="@id/humidity_icon"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:layout_marginRight="50dip"
+        android:gravity="center_vertical"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/timestamp"
+        android:layout_width="200dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/humidity"
+        android:gravity="bottom"
+        android:textSize="16sp" />
+
+</RelativeLayout> 
